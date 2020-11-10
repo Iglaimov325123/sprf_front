@@ -1,0 +1,998 @@
+ℹ Production build
+✔ Builder initialized
+✔ Nuxt files generated
+ℹ Compiling Client
+✔ Client: Compiled successfully in 28.20s
+ℹ Compiling Server
+✔ Server: Compiled successfully in 14.99s
+ℹ Generating pages
+page {
+  ID: [33m18[39m,
+  NAME: [32m'О Cчетной палате'[39m,
+  CODE: [32m'about'[39m,
+  DESCRIPTION: [32m'<p>\r\n'[39m +
+    [32m'</p>\r\n'[39m +
+    [32m'<p>\r\n'[39m +
+    [32m'\t В <a href="http://pravo.gov.ru/proxy/ips/?docbody=&nd=102164449&intelsearch=%D4%E5%E4%E5%F0%E0%EB%FC%ED%FB%E9+%E7%E0%EA%EE%ED+%EE%F2+5+%E0%EF%F0%E5%EB%FF+2013+%E3.+%B9+41-%D4%C7+%AB%CE+%D1%F7%E5%F2%ED%EE%E9+%EF%E0%EB%E0%F2%E5+%D0%EE%F1%F1%E8%E9%F1%EA%EE%E9+%D4%E5%E4%E5%F0%E0%F6%E8%E8%BB">задачи</a>&nbsp;Счетной палаты&nbsp;входят организация и осуществление контроля за целевым и эффективным использованием средств <a href="http://apus.agency:20081/audit/">федерального бюджета</a> и аудит реализуемости и результативности достижения стратегических <a href="http://apus.agency:20081/audit-national/">целей социально-экономического развития</a> Российской Федерации.&nbsp;\r\n'[39m +
+    [32m'</p>\r\n'[39m +
+    [32m'<p>\r\n'[39m +
+    [32m'\t Как орган парламентского контроля Счетная палата содействует прозрачности и эффективности расходования бюджетных средств и государственных ресурсов в целом, способствует большей подотчетности органов власти и повышению ориентации их деятельности на реализацию интересов общества.\r\n'[39m +
+    [32m'</p>\r\n'[39m +
+    [32m'<p>\r\n'[39m +
+    [32m' <a href="http://apus.agency:20081/documents/strategy/">Миссия</a>&nbsp;Счетной палаты – содействовать справедливому и ответственному государственному управлению как необходимому условию устойчивого развития российского общества и достойной жизни человека.\r\n'[39m +
+    [32m'</p>\r\n'[39m +
+    [32m'<p>\r\n'[39m +
+    [32m'\t Для реализации своих функций Счетная палата тесно взаимодействует с Государственной Думой и Советом Федерации Федерального Собрания Российской Федерации, с федеральными органами исполнительной власти, со структурами гражданского общества и общественного контроля, а также с правоохранительными органами.\r\n'[39m +
+    [32m'</p>\r\n'[39m +
+    [32m'<p>\r\n'[39m +
+    [32m'\t В соответствии с&nbsp;Лимской декларацией Международной организации высших органов аудита (<a href="https://www.intosai.org">ИНТОСАИ</a>)&nbsp;Счетная палата Российской Федерации является функционально и организационно независимой от проверяемых ей органов власти.&nbsp;В 2018-2021 гг. Счетная палата Российской Федерации является <a href="http://apus.agency:20081/intosai-president/">президентом ИНТОСАИ</a>.\r\n'[39m +
+    [32m'</p>\r\n'[39m +
+    [32m'<p>\r\n'[39m +
+    [32m'</p>'[39m,
+  ANNONCE: [32m'Счетная палата Российской Федерации – высший орган государственного аудита, созданный в соответствии с Конституцией Российской Федерации. Счетная палата развивает «чувство налогоплательщика» и качественно обеспечивает конституционное право граждан на участие в управлении делами государства.'[39m,
+  HIDE_CHAPTERS: [33mfalse[39m,
+  PICTURE: {
+    SRC: [32m'http://apus.agency:20081/upload/iblock/9b5/9b51d5f86fb0759e96bf9fed13683960.png'[39m,
+    DESCRIPTION: [32m'Здание Счетной палаты. Москва, ул. Зубовская, дом 2'[39m
+  },
+  LINKS: [
+    {
+      TYPE: [32m'persons'[39m,
+      NAME: [32m'Руководство, аудиторы и структурные подразделения'[39m,
+      PERSONS: [36m[Array][39m,
+      LINK: [32m'/structure/'[39m,
+      COUNT: [33m2[39m
+    },
+    {
+      SORT: [32m'1'[39m,
+      TYPE: [32m'button'[39m,
+      NAME: [32m'Подведомственная организация'[39m,
+      CODE: [32m'/about/fci-jv'[39m
+    },
+    {
+      SORT: [32m'500'[39m,
+      TYPE: [32m'button'[39m,
+      NAME: [32m'Экспертно-консультативный совет при Председателе'[39m,
+      CODE: [32m'/about/the-council'[39m
+    }
+  ],
+  SEO: []
+}
+✔ Generated /audit-national
+✔ Generated /about
+✔ Generated /activity
+✔ Generated /audit
+✔ Generated /anticorruption
+✔ Generated /checks
+✔ Generated /contacts
+✔ Generated /cooperation
+✔ Generated /expertise
+{
+  status: [33m200[39m,
+  statusText: [32m'Ok'[39m,
+  headers: {
+    server: [32m'nginx/1.10.3 (Ubuntu)'[39m,
+    date: [32m'Sun, 16 Feb 2020 13:24:19 GMT'[39m,
+    [32m'content-type'[39m: [32m'application/json; charset=utf-8'[39m,
+    [32m'transfer-encoding'[39m: [32m'chunked'[39m,
+    connection: [32m'close'[39m,
+    [32m'access-control-allow-methods'[39m: [32m'GET, PUT, POST, DELETE, OPTIONS'[39m,
+    [32m'access-control-allow-headers'[39m: [32m'Content-Type, Authorization-Token, Vue-Language'[39m,
+    [32m'access-control-allow-origin'[39m: [32m'*'[39m,
+    [32m'x-frame-options'[39m: [32m'SAMEORIGIN'[39m,
+    [32m'x-xss-protection'[39m: [32m'1; mode=block'[39m,
+    [32m'x-content-type-options'[39m: [32m'nosniff'[39m,
+    [32m'referrer-policy'[39m: [32m'no-referrer-when-downgrade'[39m,
+    [32m'feature-policy'[39m: [32m'* *'[39m
+  },
+  config: {
+    url: [32m'/history/list'[39m,
+    method: [32m'get'[39m,
+    headers: {
+      Accept: [32m'application/json, text/plain, */*'[39m,
+      [32m'accept-encoding'[39m: [32m'gzip, deflate'[39m,
+      [32m'User-Agent'[39m: [32m'axios/0.19.2'[39m
+    },
+    baseURL: [32m'http://apus.agency:20081/api/v1'[39m,
+    transformRequest: [
+      [36m[Function: transformRequest][39m
+    ],
+    transformResponse: [
+      [36m[Function: transformResponse][39m
+    ],
+    timeout: [33m0[39m,
+    adapter: [36m[Function: httpAdapter][39m,
+    xsrfCookieName: [32m'XSRF-TOKEN'[39m,
+    xsrfHeaderName: [32m'X-XSRF-TOKEN'[39m,
+    maxContentLength: [33m-1[39m,
+    validateStatus: [36m[Function: validateStatus][39m,
+    data: [90mundefined[39m
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [36m[Function][39m,
+      abort: [36m[Function][39m,
+      aborted: [36m[Function][39m,
+      error: [36m[Function][39m,
+      timeout: [36m[Function][39m,
+      prefinish: [36m[Function: requestOnPrefinish][39m
+    },
+    _eventsCount: [33m6[39m,
+    _maxListeners: [90mundefined[39m,
+    outputData: [],
+    outputSize: [33m0[39m,
+    writable: [33mtrue[39m,
+    _last: [33mtrue[39m,
+    chunkedEncoding: [33mfalse[39m,
+    shouldKeepAlive: [33mfalse[39m,
+    useChunkedEncodingByDefault: [33mfalse[39m,
+    sendDate: [33mfalse[39m,
+    _removedConnection: [33mfalse[39m,
+    _removedContLen: [33mfalse[39m,
+    _removedTE: [33mfalse[39m,
+    _contentLength: [33m0[39m,
+    _hasBody: [33mtrue[39m,
+    _trailer: [32m''[39m,
+    finished: [33mtrue[39m,
+    _headerSent: [33mtrue[39m,
+    socket: Socket {
+      connecting: [33mfalse[39m,
+      _hadError: [33mfalse[39m,
+      _parent: [1mnull[22m,
+      _host: [32m'apus.agency'[39m,
+      _readableState: [36m[ReadableState][39m,
+      readable: [33mfalse[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m6[39m,
+      _maxListeners: [90mundefined[39m,
+      _writableState: [36m[WritableState][39m,
+      writable: [33mfalse[39m,
+      allowHalfOpen: [33mfalse[39m,
+      _sockname: [1mnull[22m,
+      _pendingData: [1mnull[22m,
+      _pendingEncoding: [32m''[39m,
+      server: [1mnull[22m,
+      _server: [1mnull[22m,
+      parser: [1mnull[22m,
+      _httpMessage: [36m[Circular][39m,
+      [[32mSymbol(asyncId)[39m]: [33m157936[39m,
+      [[32mSymbol(kHandle)[39m]: [1mnull[22m,
+      [[32mSymbol(lastWriteQueueSize)[39m]: [33m0[39m,
+      [[32mSymbol(timeout)[39m]: [1mnull[22m,
+      [[32mSymbol(kBytesRead)[39m]: [33m2097[39m,
+      [[32mSymbol(kBytesWritten)[39m]: [33m182[39m
+    },
+    connection: Socket {
+      connecting: [33mfalse[39m,
+      _hadError: [33mfalse[39m,
+      _parent: [1mnull[22m,
+      _host: [32m'apus.agency'[39m,
+      _readableState: [36m[ReadableState][39m,
+      readable: [33mfalse[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m6[39m,
+      _maxListeners: [90mundefined[39m,
+      _writableState: [36m[WritableState][39m,
+      writable: [33mfalse[39m,
+      allowHalfOpen: [33mfalse[39m,
+      _sockname: [1mnull[22m,
+      _pendingData: [1mnull[22m,
+      _pendingEncoding: [32m''[39m,
+      server: [1mnull[22m,
+      _server: [1mnull[22m,
+      parser: [1mnull[22m,
+      _httpMessage: [36m[Circular][39m,
+      [[32mSymbol(asyncId)[39m]: [33m157936[39m,
+      [[32mSymbol(kHandle)[39m]: [1mnull[22m,
+      [[32mSymbol(lastWriteQueueSize)[39m]: [33m0[39m,
+      [[32mSymbol(timeout)[39m]: [1mnull[22m,
+      [[32mSymbol(kBytesRead)[39m]: [33m2097[39m,
+      [[32mSymbol(kBytesWritten)[39m]: [33m182[39m
+    },
+    _header: [32m'GET /api/v1/history/list HTTP/1.1\r\n'[39m +
+      [32m'Accept: application/json, text/plain, */*\r\n'[39m +
+      [32m'accept-encoding: gzip, deflate\r\n'[39m +
+      [32m'User-Agent: axios/0.19.2\r\n'[39m +
+      [32m'Host: apus.agency:20081\r\n'[39m +
+      [32m'Connection: close\r\n'[39m +
+      [32m'\r\n'[39m,
+    _onPendingData: [36m[Function: noopPendingOutput][39m,
+    agent: Agent {
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m1[39m,
+      _maxListeners: [90mundefined[39m,
+      defaultPort: [33m80[39m,
+      protocol: [32m'http:'[39m,
+      options: [36m[Object][39m,
+      requests: {},
+      sockets: [36m[Object][39m,
+      freeSockets: {},
+      keepAliveMsecs: [33m1000[39m,
+      keepAlive: [33mfalse[39m,
+      maxSockets: [33mInfinity[39m,
+      maxFreeSockets: [33m256[39m
+    },
+    socketPath: [90mundefined[39m,
+    method: [32m'GET'[39m,
+    path: [32m'/api/v1/history/list'[39m,
+    _ended: [33mtrue[39m,
+    res: IncomingMessage {
+      _readableState: [36m[ReadableState][39m,
+      readable: [33mfalse[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m1[39m,
+      _maxListeners: [90mundefined[39m,
+      socket: [36m[Socket][39m,
+      connection: [36m[Socket][39m,
+      httpVersionMajor: [33m1[39m,
+      httpVersionMinor: [33m1[39m,
+      httpVersion: [32m'1.1'[39m,
+      complete: [33mtrue[39m,
+      headers: [36m[Object][39m,
+      rawHeaders: [36m[Array][39m,
+      trailers: {},
+      rawTrailers: [],
+      aborted: [33mfalse[39m,
+      upgrade: [33mfalse[39m,
+      url: [32m''[39m,
+      method: [1mnull[22m,
+      statusCode: [33m200[39m,
+      statusMessage: [32m'Ok'[39m,
+      client: [36m[Socket][39m,
+      _consuming: [33mfalse[39m,
+      _dumped: [33mfalse[39m,
+      req: [36m[Circular][39m,
+      responseUrl: [32m'http://apus.agency:20081/api/v1/history/list'[39m,
+      redirects: []
+    },
+    aborted: [33mfalse[39m,
+    timeoutCb: [1mnull[22m,
+    upgradeOrConnect: [33mfalse[39m,
+    parser: [1mnull[22m,
+    maxHeadersCount: [1mnull[22m,
+    _redirectable: Writable {
+      _writableState: [36m[WritableState][39m,
+      writable: [33mtrue[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m2[39m,
+      _maxListeners: [90mundefined[39m,
+      _options: [36m[Object][39m,
+      _redirectCount: [33m0[39m,
+      _redirects: [],
+      _requestBodyLength: [33m0[39m,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [36m[Function][39m,
+      _currentRequest: [36m[Circular][39m,
+      _currentUrl: [32m'http://apus.agency:20081/api/v1/history/list'[39m
+    },
+    [[32mSymbol(isCorked)[39m]: [33mfalse[39m,
+    [[32mSymbol(outHeadersKey)[39m]: [Object: null prototype] {
+      accept: [36m[Array][39m,
+      [32m'accept-encoding'[39m: [36m[Array][39m,
+      [32m'user-agent'[39m: [36m[Array][39m,
+      host: [36m[Array][39m
+    }
+  },
+  data: {
+    status: [33m200[39m,
+    result: [
+      [36m[Object][39m,
+      [36m[Object][39m,
+      [36m[Object][39m,
+      [36m[Object][39m,
+      [36m[Object][39m,
+      [36m[Object][39m
+    ],
+    info: {
+      ID: [33m0[39m,
+      TEXT: [1mnull[22m,
+      ADDITIONAL: [1mnull[22m
+    },
+    seo: {
+      TITLE: [32m'Счетная палата Российской Федерации'[39m,
+      DESCRIPTION: [32m'Официальный сайт Счетной палаты Российской Федерации'[39m,
+      KEYWORDS: [32m'государство счетная палата Россия Российская Федерация сайт'[39m
+    }
+  }
+}
+✔ Generated /history
+✔ Generated /international
+✔ Generated /intosai-president
+✔ Generated /media
+page {
+  MAIN: [
+    {
+      ITEMS: [36m[Array][39m
+    },
+    {
+      ITEMS: [36m[Array][39m
+    },
+    {
+      ITEMS: [36m[Array][39m
+    },
+    {
+      ITEMS: [36m[Array][39m,
+      SOCIALS: [33mtrue[39m
+    }
+  ],
+  SOCIAL: [
+    [
+      [32m'Вконтакте'[39m,
+      [32m'https://vk.com/auditgov'[39m,
+      [33mtrue[39m
+    ],
+    [
+      [32m'Instagram'[39m,
+      [32m'https://www.instagram.com/auditgov/'[39m,
+      [33mtrue[39m
+    ],
+    [
+      [32m'Твиттер'[39m,
+      [32m'https://twitter.com/ach_gov_ru'[39m,
+      [33mtrue[39m
+    ],
+    [
+      [32m'Одноклассники'[39m,
+      [32m'https://ok.ru/group/54931296419846'[39m,
+      [33mtrue[39m
+    ],
+    [
+      [32m'Facebook'[39m,
+      [32m'https://www.facebook.com/auditgov'[39m,
+      [33mtrue[39m
+    ],
+    [
+      [32m'Youtube'[39m,
+      [32m'https://www.youtube.com/AccountsChamber'[39m,
+      [33mtrue[39m
+    ]
+  ]
+}
+✔ Generated /map
+✔ Generated /search
+✔ Generated /procurement
+✔ Generated /news
+✔ Generated /reports
+✔ Generated /review-about-website
+✔ Generated /vacancies
+✔ Generated /statements
+✔ Generated /state
+PERSONS {
+  status: [33m200[39m,
+  statusText: [32m'Ok'[39m,
+  headers: {
+    server: [32m'nginx/1.10.3 (Ubuntu)'[39m,
+    date: [32m'Sun, 16 Feb 2020 13:24:23 GMT'[39m,
+    [32m'content-type'[39m: [32m'application/json; charset=utf-8'[39m,
+    [32m'transfer-encoding'[39m: [32m'chunked'[39m,
+    connection: [32m'close'[39m,
+    [32m'access-control-allow-methods'[39m: [32m'GET, PUT, POST, DELETE, OPTIONS'[39m,
+    [32m'access-control-allow-headers'[39m: [32m'Content-Type, Authorization-Token, Vue-Language'[39m,
+    [32m'access-control-allow-origin'[39m: [32m'*'[39m,
+    [32m'x-frame-options'[39m: [32m'SAMEORIGIN'[39m,
+    [32m'x-xss-protection'[39m: [32m'1; mode=block'[39m,
+    [32m'x-content-type-options'[39m: [32m'nosniff'[39m,
+    [32m'referrer-policy'[39m: [32m'no-referrer-when-downgrade'[39m,
+    [32m'feature-policy'[39m: [32m'* *'[39m
+  },
+  config: {
+    url: [32m'/persons/list'[39m,
+    method: [32m'get'[39m,
+    headers: {
+      Accept: [32m'application/json, text/plain, */*'[39m,
+      [32m'accept-encoding'[39m: [32m'gzip, deflate'[39m,
+      [32m'User-Agent'[39m: [32m'axios/0.19.2'[39m
+    },
+    baseURL: [32m'http://apus.agency:20081/api/v1'[39m,
+    transformRequest: [
+      [36m[Function: transformRequest][39m
+    ],
+    transformResponse: [
+      [36m[Function: transformResponse][39m
+    ],
+    timeout: [33m0[39m,
+    adapter: [36m[Function: httpAdapter][39m,
+    xsrfCookieName: [32m'XSRF-TOKEN'[39m,
+    xsrfHeaderName: [32m'X-XSRF-TOKEN'[39m,
+    maxContentLength: [33m-1[39m,
+    validateStatus: [36m[Function: validateStatus][39m,
+    data: [90mundefined[39m
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [36m[Function][39m,
+      abort: [36m[Function][39m,
+      aborted: [36m[Function][39m,
+      error: [36m[Function][39m,
+      timeout: [36m[Function][39m,
+      prefinish: [36m[Function: requestOnPrefinish][39m
+    },
+    _eventsCount: [33m6[39m,
+    _maxListeners: [90mundefined[39m,
+    outputData: [],
+    outputSize: [33m0[39m,
+    writable: [33mtrue[39m,
+    _last: [33mtrue[39m,
+    chunkedEncoding: [33mfalse[39m,
+    shouldKeepAlive: [33mfalse[39m,
+    useChunkedEncodingByDefault: [33mfalse[39m,
+    sendDate: [33mfalse[39m,
+    _removedConnection: [33mfalse[39m,
+    _removedContLen: [33mfalse[39m,
+    _removedTE: [33mfalse[39m,
+    _contentLength: [33m0[39m,
+    _hasBody: [33mtrue[39m,
+    _trailer: [32m''[39m,
+    finished: [33mtrue[39m,
+    _headerSent: [33mtrue[39m,
+    socket: Socket {
+      connecting: [33mfalse[39m,
+      _hadError: [33mfalse[39m,
+      _parent: [1mnull[22m,
+      _host: [32m'apus.agency'[39m,
+      _readableState: [36m[ReadableState][39m,
+      readable: [33mfalse[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m6[39m,
+      _maxListeners: [90mundefined[39m,
+      _writableState: [36m[WritableState][39m,
+      writable: [33mfalse[39m,
+      allowHalfOpen: [33mfalse[39m,
+      _sockname: [1mnull[22m,
+      _pendingData: [1mnull[22m,
+      _pendingEncoding: [32m''[39m,
+      server: [1mnull[22m,
+      _server: [1mnull[22m,
+      parser: [1mnull[22m,
+      _httpMessage: [36m[Circular][39m,
+      write: [36m[Function: writeAfterFIN][39m,
+      [[32mSymbol(asyncId)[39m]: [33m158275[39m,
+      [[32mSymbol(kHandle)[39m]: [1mnull[22m,
+      [[32mSymbol(lastWriteQueueSize)[39m]: [33m0[39m,
+      [[32mSymbol(timeout)[39m]: [1mnull[22m,
+      [[32mSymbol(kBytesRead)[39m]: [33m3827[39m,
+      [[32mSymbol(kBytesWritten)[39m]: [33m182[39m
+    },
+    connection: Socket {
+      connecting: [33mfalse[39m,
+      _hadError: [33mfalse[39m,
+      _parent: [1mnull[22m,
+      _host: [32m'apus.agency'[39m,
+      _readableState: [36m[ReadableState][39m,
+      readable: [33mfalse[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m6[39m,
+      _maxListeners: [90mundefined[39m,
+      _writableState: [36m[WritableState][39m,
+      writable: [33mfalse[39m,
+      allowHalfOpen: [33mfalse[39m,
+      _sockname: [1mnull[22m,
+      _pendingData: [1mnull[22m,
+      _pendingEncoding: [32m''[39m,
+      server: [1mnull[22m,
+      _server: [1mnull[22m,
+      parser: [1mnull[22m,
+      _httpMessage: [36m[Circular][39m,
+      write: [36m[Function: writeAfterFIN][39m,
+      [[32mSymbol(asyncId)[39m]: [33m158275[39m,
+      [[32mSymbol(kHandle)[39m]: [1mnull[22m,
+      [[32mSymbol(lastWriteQueueSize)[39m]: [33m0[39m,
+      [[32mSymbol(timeout)[39m]: [1mnull[22m,
+      [[32mSymbol(kBytesRead)[39m]: [33m3827[39m,
+      [[32mSymbol(kBytesWritten)[39m]: [33m182[39m
+    },
+    _header: [32m'GET /api/v1/persons/list HTTP/1.1\r\n'[39m +
+      [32m'Accept: application/json, text/plain, */*\r\n'[39m +
+      [32m'accept-encoding: gzip, deflate\r\n'[39m +
+      [32m'User-Agent: axios/0.19.2\r\n'[39m +
+      [32m'Host: apus.agency:20081\r\n'[39m +
+      [32m'Connection: close\r\n'[39m +
+      [32m'\r\n'[39m,
+    _onPendingData: [36m[Function: noopPendingOutput][39m,
+    agent: Agent {
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m1[39m,
+      _maxListeners: [90mundefined[39m,
+      defaultPort: [33m80[39m,
+      protocol: [32m'http:'[39m,
+      options: [36m[Object][39m,
+      requests: {},
+      sockets: [36m[Object][39m,
+      freeSockets: {},
+      keepAliveMsecs: [33m1000[39m,
+      keepAlive: [33mfalse[39m,
+      maxSockets: [33mInfinity[39m,
+      maxFreeSockets: [33m256[39m
+    },
+    socketPath: [90mundefined[39m,
+    method: [32m'GET'[39m,
+    path: [32m'/api/v1/persons/list'[39m,
+    _ended: [33mtrue[39m,
+    res: IncomingMessage {
+      _readableState: [36m[ReadableState][39m,
+      readable: [33mfalse[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m1[39m,
+      _maxListeners: [90mundefined[39m,
+      socket: [36m[Socket][39m,
+      connection: [36m[Socket][39m,
+      httpVersionMajor: [33m1[39m,
+      httpVersionMinor: [33m1[39m,
+      httpVersion: [32m'1.1'[39m,
+      complete: [33mtrue[39m,
+      headers: [36m[Object][39m,
+      rawHeaders: [36m[Array][39m,
+      trailers: {},
+      rawTrailers: [],
+      aborted: [33mfalse[39m,
+      upgrade: [33mfalse[39m,
+      url: [32m''[39m,
+      method: [1mnull[22m,
+      statusCode: [33m200[39m,
+      statusMessage: [32m'Ok'[39m,
+      client: [36m[Socket][39m,
+      _consuming: [33mtrue[39m,
+      _dumped: [33mfalse[39m,
+      req: [36m[Circular][39m,
+      responseUrl: [32m'http://apus.agency:20081/api/v1/persons/list'[39m,
+      redirects: []
+    },
+    aborted: [33mfalse[39m,
+    timeoutCb: [1mnull[22m,
+    upgradeOrConnect: [33mfalse[39m,
+    parser: [1mnull[22m,
+    maxHeadersCount: [1mnull[22m,
+    _redirectable: Writable {
+      _writableState: [36m[WritableState][39m,
+      writable: [33mtrue[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m2[39m,
+      _maxListeners: [90mundefined[39m,
+      _options: [36m[Object][39m,
+      _redirectCount: [33m0[39m,
+      _redirects: [],
+      _requestBodyLength: [33m0[39m,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [36m[Function][39m,
+      _currentRequest: [36m[Circular][39m,
+      _currentUrl: [32m'http://apus.agency:20081/api/v1/persons/list'[39m
+    },
+    [[32mSymbol(isCorked)[39m]: [33mfalse[39m,
+    [[32mSymbol(outHeadersKey)[39m]: [Object: null prototype] {
+      accept: [36m[Array][39m,
+      [32m'accept-encoding'[39m: [36m[Array][39m,
+      [32m'user-agent'[39m: [36m[Array][39m,
+      host: [36m[Array][39m
+    }
+  },
+  data: {
+    status: [33m200[39m,
+    result: [
+      [36m[Array][39m,
+      [36m[Array][39m,
+      [36m[Array][39m,
+      [36m[Array][39m,
+      [36m[Array][39m,
+      [36m[Array][39m,
+      [36m[Array][39m
+    ],
+    info: {
+      ID: [33m100[39m,
+      TEXT: [32m'<p>Председатель Счетной палаты назначается на должность Государственной Думой сроком на шесть лет по представлению Президента Российской Федерации. Заместитель Председателя Счетной палаты назначается на должность Советом Федерации сроком на шесть лет по представлению Президента Российской Федерации. Совет Федерации и Государственная Дума назначают по шесть аудиторов Счетной палаты сроком на шесть лет по представлению Президента Российской Федерации. Одно и то же лицо не может занимать вышеуказанные должности более двух сроков подряд.</p>'[39m,
+      ADDITIONAL: [32m'<p>\r\n'[39m +
+        [32m'</p>\r\n'[39m +
+        [32m'<p>\r\n'[39m +
+        [32m'\tСчетная палата включает в себя коллегию и аппарат. Коллегия – главный орган управления ведомства. Она рассматривает основные вопросы&nbsp;<a href="http://pravo.gov.ru/proxy/ips/?docbody=&nd=102164449&intelsearch=%D4%E5%E4%E5%F0%E0%EB%FC%ED%FB%E9+%E7%E0%EA%EE%ED+%EE%F2+5+%E0%EF%F0%E5%EB%FF+2013+%E3.+%B9+41-%D4%C7+%AB%CE+%D1%F7%E5%F2%ED%EE%E9+%EF%E0%EB%E0%F2%E5+%D0%EE%F1%F1%E8%E9%F1%EA%EE%E9+%D4%E5%E4%E5%F0%E0%F6%E8%E8%BB">деятельности Счетной палаты</a>. В состав коллегии входят Председатель Счетной палаты, его заместитель, 12 аудиторов и руководитель аппарата (с правом совещательного голоса).<br>\r\n'[39m +
+        [32m'</p>\r\n'[39m +
+        [32m'<p>\r\n'[39m +
+        [32m'\t Аппарат Счетной палаты состоит из инспекторов, которые распределены по аудиторским направлениям, и сотрудников обеспечивающих департаментов.\r\n'[39m +
+        [32m'</p>'[39m
+    },
+    seo: {
+      TITLE: [32m'Структура. Счетная палата Российской Федерации'[39m,
+      DESCRIPTION: [32m'Официальный сайт Счетной палаты Российской Федерации'[39m,
+      KEYWORDS: [32m'государство счетная палата Россия Российская Федерация сайт'[39m
+    }
+  }
+}
+✔ Generated /structure
+SUPPORT INFO {
+  info: {
+    ID: [33m326[39m,
+    TEXT: [32m'<p>Обзор о работе с обращениями граждан, объединений граждан (в том числе юридических лиц) в Счетной палате Российской Федерации в II квартале 2019 года</p><p> В II квартале 2019 года в Счетной палате Российской Федерации зарегистрированы и рассмотрены 828 обращений от граждан, а также направленные из иных государственных органов обращения граждан. В них были подняты 980 вопросов. Граждане обращаются со своими предложениями в письменной форме, форме электронного документа и лично в Общественную приемную Счетной палаты Российской Федерации.</p><p>\t В отчетный период в форме электронного документа посредством сервиса «Общественная приемная» официального веб-сайта Счетной палаты Российской Федерации получено и зарегистрировано 630 обращений граждан. Отправка ответов гражданам на обращения, поступившие в электронной форме, производилась в электронном виде.</p><p>\t В общей сложности в качестве мер реагирования на обращения граждан и организаций в соответствующие компетентные органы и заявителям направлены 1234 письма.</p><p>\t В Счетной палате Российской Федерации сложилась практика тщательного анализа содержащейся в обращениях граждан информации о фактах нарушений бюджетного законодательства и ее последующего использования при планировании контрольных мероприятий или непосредственном проведении плановых проверок.</p><p>\t Среди поступившей в Счетную палату Российской Федерации преобладала корреспонденция, касающаяся вопросов: исполнения федерального бюджета – 145 обращений; защиты прав и свобод граждан с жалобами на должностных лиц – 140 обращений; расходования средств бюджетов субъектов Российской Федерации – 71 обращение; обеспечения жильем граждан – 63 обращения; жилищно-коммунального хозяйства и тарифов на ЖКУ – 58 обращений; науки, культуры, информации, спорта – 53 обращения; по общегосударственным вопросам – 46 обращений; промышленности, строительства и транспорта – 42 обращения; сферы труда и заработной платы – 41 обращение; нарушений в сфере здравоохранения и социального обеспечения – 41 обращение; деятельности судебных органов – 23 обращения; использования, управления госсобственностью – 21 обращение и иной тематики.</p><p>\t Из регионов наибольшее количество обращений граждан поступили из города Москвы, Московской области, Алтайского края, Краснодарского края, Санкт-Петербурга и Калужской области.</p><p>\t По поступившим обращениям авторам были даны 215 разъяснений по интересующим их проблемам.</p><p>\t Уведомлений заявителям о направлении их обращений в иные органы по принадлежности отправлено 431.</p><p>\t В Администрацию Президента Российской Федерации и Правительство Российской Федерации по принадлежности и по просьбе авторов направлены 9 обращений.</p><p>\t Материалы 204 обращений направлены в федеральные министерства и ведомства для рассмотрения по существу с одновременным уведомлением авторов. В региональные органы власти по принадлежности направлены 133 обращения.</p><p>\t Непосредственно аудиторскими направлениями деятельности Счетной палаты Российской Федерации в рамках полномочий рассмотрены 196 обращений граждан.</p><p>\t Для принятия мер прокурорского реагирования материалы 128 обращений направлены в органы прокуратуры различных уровней.</p><p>\t В контрольно-счетные органы – 67 обращений, в федеральные фонды – 9 обращений, в органы Следственного комитета – 14 обращений, в кредитные организации – 7 обращений, в судебные органы – 9 обращений, также обращения направлены в иные органы.</p><p>\t В Общественной приемной Счетной палаты Российской Федерации осуществлен личный прием 18 граждан. От них были приняты 11 письменных обращений.</p>'[39m,
+    ADDITIONAL: [1mnull[22m
+  },
+  seo: {
+    TITLE: [32m'Общественная приемная. Счетная палата Российской Федерации'[39m,
+    DESCRIPTION: [32m'Официальный сайт Счетной палаты Российской Федерации'[39m,
+    KEYWORDS: [32m'государство счетная палата Россия Российская Федерация сайт'[39m
+  }
+}
+✔ Generated /support
+✔ Generated /anticorruption/faq
+✔ Generated /anticorruption/commission
+✔ Generated /anticorruption/income
+✔ Generated /anticorruption/documents
+✔ Generated /anticorruption/expertise
+✔ Generated /anticorruption/letterheads
+✔ Generated /anticorruption/methodical
+✔ Generated /audit/control
+✔ Generated /audit/analysis
+✔ Generated /audit/preliminary
+✔ Generated /documents/intosai
+✔ Generated /documents/legislation
+✔ Generated /documents/standarts
+✔ Generated /documents/strategy
+TAGS {
+  TITLE: [32m'Accounts Chamber of Russian Federation'[39m,
+  DESCRIPTION: [32m'The official website of Accounts Chamber of Russian Federation'[39m,
+  KEYWORDS: [32m'state audit office Russia Russian Federation'[39m
+}
+✔ Generated /en/
+page {
+  ID: [33m47[39m,
+  NAME: [32m'About the ACRF'[39m,
+  CODE: [32m'about'[39m,
+  DESCRIPTION: [32m'<p>\r\n'[39m +
+    [32m'\t The goals and functions imposed on the Accounts Chamber by applicable legislation make it a key element of the system of public control over use of national resources and also an instrument of reconciling short-term socio-economic solutions yielding a quick effect with the long-term interests of the society and strategic goals of public development. This underlines the Accounts Chamber mission and the strategy of its activities.<br>\r\n'[39m +
+    [32m' <br>\r\n'[39m +
+    [32m'\t The Accounts Chamber mission is to control management and use of national resources in order to foster conditions ensuring decent life and free development of a human being.<br>\r\n'[39m +
+    [32m' <br>\r\n'[39m +
+    [32m'\t The Chairman of the Accounts Chamber is appointed by the State Duma upon recommendation of the President of the Russian Federation for a term of six years. The Deputy Chairman of the Accounts Chamber is appointed by the Federation Council upon recommendation of the President of the Russian Federation for a term of six years. Upon recommendation of the President of the Russian Federation, the Federation Council and the State Duma each appoint six auditors of the Accounts Chamber for a term of six years.<br>\r\n'[39m +
+    [32m' <br>\r\n'[39m +
+    [32m'\t One and the same person cannot hold the above positions for more than two consecutive terms.\r\n'[39m +
+    [32m'</p>\r\n'[39m +
+    [32m'<p><a href="/en/page/2018-2024-development-strategy-of-the-accounts-chamber-of-the-russian-federation/">2018-2024 Development Strategy of the Accounts Chamber of the Russian Federation</a></p>\r\n'[39m +
+    [32m'<p><a href="/en/page/strategy-of-activities-of-the-accounts-chamber-of-the-russian-federation-for-2013-2019/">Strategy of activities of the Accounts Chamber of the Russian Federation for 2013 – 2019</a></p>'[39m,
+  ANNONCE: [32m'The Accounts Chamber of the Russian Federation is a permanent supreme body of external public audit (control) accountable to the Federal Assembly of the Russian Federation. The Accounts Chamber is carrying out its activities based on the principles of legality, efficiency, objectivity, independence and openness.'[39m,
+  HIDE_CHAPTERS: [33mfalse[39m,
+  __debug: [
+    [1mnull[22m,
+    [32m'http://apus.agency:20081'[39m,
+    [1mnull[22m,
+    [1mnull[22m,
+    [1mnull[22m,
+    [1mnull[22m,
+    [1mnull[22m
+  ],
+  PICTURE: {
+    SRC: [32m'http://apus.agency:20081/upload/iblock/309/3095b2309cdb535e9d0850e92568d4ea.png'[39m,
+    DESCRIPTION: [32m'Accounts Chamber of Russian Federation. Moscow, st. Zubovskaya, 2'[39m
+  },
+  LINKS: [
+    {
+      TYPE: [32m'button'[39m,
+      NAME: [32m'Subordinate organization'[39m,
+      CODE: [32m'fci-jv'[39m
+    },
+    {
+      TYPE: [32m'button'[39m,
+      NAME: [32m'History'[39m,
+      CODE: [32m'history'[39m
+    }
+  ]
+}
+✔ Generated /en/about
+✔ Generated /en/audit
+✔ Generated /en/audit-national
+✔ Generated /en/contacts
+✔ Generated /en/cooperation
+✔ Generated /en/intosai-president
+page {
+  MAIN: [
+    {
+      ITEMS: [36m[Array][39m
+    },
+    {
+      ITEMS: [36m[Array][39m
+    },
+    {
+      ITEMS: [36m[Array][39m,
+      SOCIALS: [33mtrue[39m
+    }
+  ],
+  SOCIAL: [
+    [
+      [32m'Vk'[39m,
+      [32m'https://vk.com/auditgov'[39m,
+      [33mtrue[39m
+    ],
+    [
+      [32m'Instagram'[39m,
+      [32m'https://www.instagram.com/auditgov/'[39m,
+      [33mtrue[39m
+    ],
+    [
+      [32m'Twitter'[39m,
+      [32m'https://twitter.com/ach_gov_ru'[39m,
+      [33mtrue[39m
+    ],
+    [
+      [32m'Facebook'[39m,
+      [32m'https://www.facebook.com/auditgov'[39m,
+      [33mtrue[39m
+    ],
+    [
+      [32m'Youtube'[39m,
+      [32m'https://www.youtube.com/user/AccountsChamber'[39m,
+      [33mtrue[39m
+    ]
+  ]
+}
+✔ Generated /en/map
+✔ Generated /en/search
+✔ Generated /en/news
+✔ Generated /en/reports
+✔ Generated /en/review-about-website
+✔ Generated /en/statements
+PERSONS {
+  status: [33m200[39m,
+  statusText: [32m'Ok'[39m,
+  headers: {
+    server: [32m'nginx/1.10.3 (Ubuntu)'[39m,
+    date: [32m'Sun, 16 Feb 2020 13:24:36 GMT'[39m,
+    [32m'content-type'[39m: [32m'application/json; charset=utf-8'[39m,
+    [32m'transfer-encoding'[39m: [32m'chunked'[39m,
+    connection: [32m'close'[39m,
+    [32m'access-control-allow-methods'[39m: [32m'GET, PUT, POST, DELETE, OPTIONS'[39m,
+    [32m'access-control-allow-headers'[39m: [32m'Content-Type, Authorization-Token, Vue-Language'[39m,
+    [32m'access-control-allow-origin'[39m: [32m'*'[39m,
+    [32m'x-frame-options'[39m: [32m'SAMEORIGIN'[39m,
+    [32m'x-xss-protection'[39m: [32m'1; mode=block'[39m,
+    [32m'x-content-type-options'[39m: [32m'nosniff'[39m,
+    [32m'referrer-policy'[39m: [32m'no-referrer-when-downgrade'[39m,
+    [32m'feature-policy'[39m: [32m'* *'[39m
+  },
+  config: {
+    url: [32m'/persons/list'[39m,
+    method: [32m'get'[39m,
+    headers: {
+      Accept: [32m'application/json, text/plain, */*'[39m,
+      [32m'accept-encoding'[39m: [32m'gzip, deflate'[39m,
+      [32m'User-Agent'[39m: [32m'axios/0.19.2'[39m
+    },
+    baseURL: [32m'http://apus.agency:20081/api/en'[39m,
+    transformRequest: [
+      [36m[Function: transformRequest][39m
+    ],
+    transformResponse: [
+      [36m[Function: transformResponse][39m
+    ],
+    timeout: [33m0[39m,
+    adapter: [36m[Function: httpAdapter][39m,
+    xsrfCookieName: [32m'XSRF-TOKEN'[39m,
+    xsrfHeaderName: [32m'X-XSRF-TOKEN'[39m,
+    maxContentLength: [33m-1[39m,
+    validateStatus: [36m[Function: validateStatus][39m,
+    data: [90mundefined[39m
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [36m[Function][39m,
+      abort: [36m[Function][39m,
+      aborted: [36m[Function][39m,
+      error: [36m[Function][39m,
+      timeout: [36m[Function][39m,
+      prefinish: [36m[Function: requestOnPrefinish][39m
+    },
+    _eventsCount: [33m6[39m,
+    _maxListeners: [90mundefined[39m,
+    outputData: [],
+    outputSize: [33m0[39m,
+    writable: [33mtrue[39m,
+    _last: [33mtrue[39m,
+    chunkedEncoding: [33mfalse[39m,
+    shouldKeepAlive: [33mfalse[39m,
+    useChunkedEncodingByDefault: [33mfalse[39m,
+    sendDate: [33mfalse[39m,
+    _removedConnection: [33mfalse[39m,
+    _removedContLen: [33mfalse[39m,
+    _removedTE: [33mfalse[39m,
+    _contentLength: [33m0[39m,
+    _hasBody: [33mtrue[39m,
+    _trailer: [32m''[39m,
+    finished: [33mtrue[39m,
+    _headerSent: [33mtrue[39m,
+    socket: Socket {
+      connecting: [33mfalse[39m,
+      _hadError: [33mfalse[39m,
+      _parent: [1mnull[22m,
+      _host: [32m'apus.agency'[39m,
+      _readableState: [36m[ReadableState][39m,
+      readable: [33mfalse[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m6[39m,
+      _maxListeners: [90mundefined[39m,
+      _writableState: [36m[WritableState][39m,
+      writable: [33mfalse[39m,
+      allowHalfOpen: [33mfalse[39m,
+      _sockname: [1mnull[22m,
+      _pendingData: [1mnull[22m,
+      _pendingEncoding: [32m''[39m,
+      server: [1mnull[22m,
+      _server: [1mnull[22m,
+      parser: [1mnull[22m,
+      _httpMessage: [36m[Circular][39m,
+      [[32mSymbol(asyncId)[39m]: [33m159633[39m,
+      [[32mSymbol(kHandle)[39m]: [1mnull[22m,
+      [[32mSymbol(lastWriteQueueSize)[39m]: [33m0[39m,
+      [[32mSymbol(timeout)[39m]: [1mnull[22m,
+      [[32mSymbol(kBytesRead)[39m]: [33m2804[39m,
+      [[32mSymbol(kBytesWritten)[39m]: [33m182[39m
+    },
+    connection: Socket {
+      connecting: [33mfalse[39m,
+      _hadError: [33mfalse[39m,
+      _parent: [1mnull[22m,
+      _host: [32m'apus.agency'[39m,
+      _readableState: [36m[ReadableState][39m,
+      readable: [33mfalse[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m6[39m,
+      _maxListeners: [90mundefined[39m,
+      _writableState: [36m[WritableState][39m,
+      writable: [33mfalse[39m,
+      allowHalfOpen: [33mfalse[39m,
+      _sockname: [1mnull[22m,
+      _pendingData: [1mnull[22m,
+      _pendingEncoding: [32m''[39m,
+      server: [1mnull[22m,
+      _server: [1mnull[22m,
+      parser: [1mnull[22m,
+      _httpMessage: [36m[Circular][39m,
+      [[32mSymbol(asyncId)[39m]: [33m159633[39m,
+      [[32mSymbol(kHandle)[39m]: [1mnull[22m,
+      [[32mSymbol(lastWriteQueueSize)[39m]: [33m0[39m,
+      [[32mSymbol(timeout)[39m]: [1mnull[22m,
+      [[32mSymbol(kBytesRead)[39m]: [33m2804[39m,
+      [[32mSymbol(kBytesWritten)[39m]: [33m182[39m
+    },
+    _header: [32m'GET /api/en/persons/list HTTP/1.1\r\n'[39m +
+      [32m'Accept: application/json, text/plain, */*\r\n'[39m +
+      [32m'accept-encoding: gzip, deflate\r\n'[39m +
+      [32m'User-Agent: axios/0.19.2\r\n'[39m +
+      [32m'Host: apus.agency:20081\r\n'[39m +
+      [32m'Connection: close\r\n'[39m +
+      [32m'\r\n'[39m,
+    _onPendingData: [36m[Function: noopPendingOutput][39m,
+    agent: Agent {
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m1[39m,
+      _maxListeners: [90mundefined[39m,
+      defaultPort: [33m80[39m,
+      protocol: [32m'http:'[39m,
+      options: [36m[Object][39m,
+      requests: {},
+      sockets: {},
+      freeSockets: {},
+      keepAliveMsecs: [33m1000[39m,
+      keepAlive: [33mfalse[39m,
+      maxSockets: [33mInfinity[39m,
+      maxFreeSockets: [33m256[39m
+    },
+    socketPath: [90mundefined[39m,
+    method: [32m'GET'[39m,
+    path: [32m'/api/en/persons/list'[39m,
+    _ended: [33mtrue[39m,
+    res: IncomingMessage {
+      _readableState: [36m[ReadableState][39m,
+      readable: [33mfalse[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m1[39m,
+      _maxListeners: [90mundefined[39m,
+      socket: [36m[Socket][39m,
+      connection: [36m[Socket][39m,
+      httpVersionMajor: [33m1[39m,
+      httpVersionMinor: [33m1[39m,
+      httpVersion: [32m'1.1'[39m,
+      complete: [33mtrue[39m,
+      headers: [36m[Object][39m,
+      rawHeaders: [36m[Array][39m,
+      trailers: {},
+      rawTrailers: [],
+      aborted: [33mfalse[39m,
+      upgrade: [33mfalse[39m,
+      url: [32m''[39m,
+      method: [1mnull[22m,
+      statusCode: [33m200[39m,
+      statusMessage: [32m'Ok'[39m,
+      client: [36m[Socket][39m,
+      _consuming: [33mfalse[39m,
+      _dumped: [33mfalse[39m,
+      req: [36m[Circular][39m,
+      responseUrl: [32m'http://apus.agency:20081/api/en/persons/list'[39m,
+      redirects: []
+    },
+    aborted: [33mfalse[39m,
+    timeoutCb: [1mnull[22m,
+    upgradeOrConnect: [33mfalse[39m,
+    parser: [1mnull[22m,
+    maxHeadersCount: [1mnull[22m,
+    _redirectable: Writable {
+      _writableState: [36m[WritableState][39m,
+      writable: [33mtrue[39m,
+      _events: [36m[Object: null prototype][39m,
+      _eventsCount: [33m2[39m,
+      _maxListeners: [90mundefined[39m,
+      _options: [36m[Object][39m,
+      _redirectCount: [33m0[39m,
+      _redirects: [],
+      _requestBodyLength: [33m0[39m,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [36m[Function][39m,
+      _currentRequest: [36m[Circular][39m,
+      _currentUrl: [32m'http://apus.agency:20081/api/en/persons/list'[39m
+    },
+    [[32mSymbol(isCorked)[39m]: [33mfalse[39m,
+    [[32mSymbol(outHeadersKey)[39m]: [Object: null prototype] {
+      accept: [36m[Array][39m,
+      [32m'accept-encoding'[39m: [36m[Array][39m,
+      [32m'user-agent'[39m: [36m[Array][39m,
+      host: [36m[Array][39m
+    }
+  },
+  data: {
+    status: [33m200[39m,
+    result: [
+      [36m[Array][39m,
+      [36m[Array][39m,
+      [36m[Array][39m,
+      [36m[Array][39m,
+      [36m[Array][39m,
+      [36m[Array][39m,
+      [36m[Array][39m
+    ],
+    info: {
+      ID: [33m0[39m,
+      TEXT: [1mnull[22m,
+      ADDITIONAL: [1mnull[22m
+    },
+    seo: {
+      TITLE: [32m'Accounts Chamber of Russian Federation'[39m,
+      DESCRIPTION: [32m'The official website of the Accounts Chamber of the Russian Federation'[39m,
+      KEYWORDS: [32m'state audit office Russia Russian Federation'[39m
+    }
+  }
+}
+✔ Generated /en/structure
+{
+  ID: [33m0[39m,
+  NAME: [1mnull[22m,
+  CODE: [32m'international-org'[39m,
+  DESCRIPTION: [1mnull[22m,
+  HIDE_CHAPTERS: [33mfalse[39m
+}
+✔ Generated /international/organizations
+✔ Generated /state/contest
+✔ Generated /state/normative-acts
+✔ Generated /state/personnel-reserve
+✔ Generated /state/state-procedure
+✔ Generated /en/anticorruption/commission
+✔ Generated /en/anticorruption/documents
+✔ Generated /en/anticorruption/income
+✔ Generated /en/anticorruption/methodical
+✔ Generated /en/anticorruption/letterheads
+✔ Generated /en/audit/analysis
+✔ Generated /en/audit/control
+✔ Generated /en/audit/preliminary
+✔ Generated /en/documents/intosai
+✔ Generated /en/documents/legislation
+✔ Generated /en/documents/standarts
+{
+  ID: [33m0[39m,
+  NAME: [1mnull[22m,
+  CODE: [32m'international-org'[39m,
+  DESCRIPTION: [1mnull[22m,
+  HIDE_CHAPTERS: [33mfalse[39m
+}
+✔ Generated /en/international/organizations
+✔ Generated /en/state/contest
+✔ Generated /en/state/normative-acts
+✔ Generated /en/state/personnel-reserve
+✔ Generated /en/state/state-procedure
+TAGS {
+  TITLE: [32m'Счетная палата Российской Федерации'[39m,
+  DESCRIPTION: [32m'Официальный сайт Счетной палаты Российской Федерации'[39m,
+  KEYWORDS: [32m'государство счетная палата Россия Российская Федерация сайт'[39m
+}
+✔ Generated /

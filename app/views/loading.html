@@ -1,0 +1,53 @@
+<style>
+  #nuxt-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background: #f1f2f5;
+  }
+  #nuxt-loading.error p {
+    display: block;
+  }
+  #nuxt-loading .table {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  #nuxt-loading .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  #nuxt-loading p {
+    font-size: 20px;
+    line-height: 2;
+    display: none;
+  }
+  #nuxt-loading img {
+    width: 150px;
+    display: block;
+    margin: 0 auto 50px;
+  }
+</style>
+
+<script>
+window.addEventListener('error', function () {
+  var e = document.getElementById('nuxt-loading');
+  if (e) e.className += ' error';
+});
+</script>
+
+<div id="nuxt-loading" aria-live="polite" role="status">
+  <div class="table">
+    <div class="table-cell">
+      <img src="/img/logo.png" alt="Главная страница">
+      <p>
+          К сожалению, браузер, которым вы пользуетесь устарел.<br>
+          Для корректной работы сайта скачайте <a href="https://yandex.ru/search/?lr=213&text=%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80" rel="nofollow" target="_blank">современный браузер</a>.
+      </p>
+    </div>
+  </div>
+</div>

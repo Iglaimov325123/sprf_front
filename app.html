@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+
+    <link rel="preload" href="/detector.js" as="script">
+    <script src="/detector.js" defer></script>
+  </head>
+  <body {{ BODY_ATTRS }}>
+    <!-- <div class="browser-detector">
+        Ваш браузер устарел!
+    </div> -->
+    {{ APP }}
+  </body>
+</html>

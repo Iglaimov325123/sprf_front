@@ -1,0 +1,21 @@
+[data-layout="dark"] {
+  footer {
+    color: #fff;
+
+    a {
+      color: #fff;
+    }
+
+    .footer-nav nav a {
+      color: $lightblue;
+    }
+
+    .footer-nav .socials a {
+      color: $lightblue;
+    }
+  }
+
+  .subscribe-form form button {
+    color: #fff!important;
+  }
+}

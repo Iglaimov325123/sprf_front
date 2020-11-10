@@ -1,0 +1,43 @@
+.block-border-grid {
+  margin: 0 -8px;
+
+  .grid-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+
+    .grid-item-inner {
+      margin: 0 8px 16px;
+      padding: 16px 0;
+      text-align: center;
+      border: 1px solid $blue;
+      border-radius: 4px;
+      font-family: $titlesans;
+
+      &.disable {
+        border-color: $lightblue;
+
+        .value {
+          color: $lightblue;
+        }
+      }
+
+      small {
+        font-size: 16px;
+        color: $lightblue;
+      }
+
+      .value {
+        font-size: em(20);
+        margin-top: 3px;
+      }
+    }
+  }
+}
+
+.tag-items + .btn {
+  margin-top: 40px;
+}
+
+.page-contain {
+  position: relative;
+}

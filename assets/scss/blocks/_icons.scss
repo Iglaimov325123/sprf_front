@@ -1,0 +1,19 @@
+.icon-block {
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 0.5s $cubic;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+.icon-download {
+  width: 22px;
+  height: 23px;
+  background: url('~assets/img/download.svg');
+}
+// .icon-up {
+//   width: 18px;
+//   height: 22px;
+//   background: url('~assets/img/top.svg');
+// }

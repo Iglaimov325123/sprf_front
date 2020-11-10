@@ -1,0 +1,41 @@
+.aside-block {
+  margin-bottom: 60px;
+
+  &.no-padding {
+    margin-bottom: 0;
+
+    .block-content .text-block {
+      margin-bottom: 0;
+    }
+  }
+
+  aside {
+    flex: 0 0 305px;
+    max-width: 305px;
+  }
+  .block-content {
+    flex: 0 0 calc(100% - 305px);
+    max-width: calc(100% - 305px);
+
+    &.extended {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    h3 + p {
+      margin-top: 32px;
+    }
+
+    .expand-block {
+      margin-bottom: 48px;
+    }
+
+    .text-block {
+      margin-bottom: 48px;
+    }
+  }
+}
+
+p.first + .aside-block {
+  margin-top: 50px;
+}

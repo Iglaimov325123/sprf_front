@@ -1,0 +1,7 @@
+$titlesans: 'TT Jenevers', Helvetica, Arial, sans-serif;
+$textsans: 'PT Russia', Helvetica, Arial, sans-serif;
+$baseSize: 16; // Стандартный размер шрифта
+
+@function em($pixels, $context: $baseSize) {
+  @return #{$pixels/$context}em;
+}

@@ -1,0 +1,97 @@
+input[type="text"], input[type="password"], input[type="email"] {
+  height: 40px;
+  background: #eee;
+  border-radius: 2px;
+  border: 0;
+  outline: none;
+  -webkit-appearance: none;
+  transition: background 0.5s $cubic, color 0.5s $cubic;
+  color: #000;
+  display: flex;
+  align-items: center;
+  font-size: em(18);
+  padding: 0 16px;
+  width: 100%;
+
+  &:hover {
+    color: #000;
+    background: $cardblue;
+  }
+  &:active, &:focus {
+    color: $blue;
+  }
+
+  &:disabled {
+    background: #eee;
+    color: $lightblue;
+    cursor: not-allowed;
+    -webkit-text-fill-color: $lightblue;
+    opacity: 1; /* required on iOS */
+
+    &:hover, &:active, &:focus {
+      color: $lightblue;
+      background: #eee;
+      -webkit-text-fill-color: $lightblue;
+      opacity: 1; /* required on iOS */
+    }
+  }
+}
+
+textarea {
+  padding: 16px;
+  background: #eee;
+  color: #000;
+  border: 0;
+  border-radius: 2px;
+  outline: none;
+  -webkit-appearance: none;
+  font-size: em(18);
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 160px;
+  max-height: 500px;
+  line-height: 1.27;
+  transition: background 0.5s $cubic, color 0.5s $cubic;
+
+  &:hover {
+    color: #000;
+    background: $cardblue;
+  }
+  &:active, &:focus {
+    color: $blue;
+  }
+
+  &:disabled {
+    background: #eee;
+    color: $lightblue;
+    cursor: not-allowed;
+
+    &:hover, &:active, &:focus {
+      color: $lightblue;
+      background: #eee;
+    }
+  }
+}
+
+.form-row {
+  margin-top: 16px;
+
+  &.with-label {
+    margin-top: 24px;
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  label {
+    font-size: em(14);
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+form.with-padding {
+  margin-top: 40px;
+}

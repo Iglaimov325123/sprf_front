@@ -1,0 +1,128 @@
+// Мелкий десктоп
+@media (min-width: 1024px) and (max-width: 1200px) {
+  section[data-type="cards-grid"][data-v-2a183b29]:before, section[data-type="cards-grid"][data-v-2a183b29]:after {
+    display: none;
+  }
+
+  .center {
+    padding: 0 40px;
+  }
+
+  h1 {
+    line-height: 1.4;
+  }
+
+  h5 {
+    font-size: em(18);
+    line-height: 1.44;
+  }
+
+  section[data-type="page-content"] {
+    .page-contain {
+      padding: 50px 16px;
+
+      .blue-block {
+        p {
+          font-size: em(16);
+        }
+      }
+
+      .double-side {
+        .btn.full-width {
+          width: 100%;
+          flex: 0 0 100%;
+          max-width: 100%;
+          margin: auto 0;
+        }
+      }
+
+      p.first {
+        font-size: em(24);
+        line-height: 1.4;
+      }
+
+      p {
+        font-size: em(18);
+        line-height: 1.44;
+      }
+
+      .btn.full-width {
+        display: flex;
+        margin: 20px 24px -10px;
+        width: auto;
+      }
+
+      .block-quote {
+        font-size: 14px;
+        line-height: 1.6;
+        padding: 0 0 0 88px;
+
+        &:before {
+          left: 19px;
+        }
+      }
+    }
+
+    .center {
+      padding: 0 24px;
+    }
+
+    &+[data-type="page-content"] {
+      margin-top: 16px;
+    }
+  }
+
+  section[data-type="inner-head"].with-expand {
+    padding: 132px 0 96px;
+    margin-bottom: -90px;
+
+    .head-main {
+      padding-bottom: 15px;
+    }
+  }
+
+  .page-switcher .title , .page-switcher .title h1 {
+    font-size: 36px;
+  }
+
+  .grid-content > * {
+    padding: 0 12px 24px;
+
+    &.col-12 {
+      padding: 0 8px 24px;
+    }
+  }
+
+  section[data-type="inner-head"] {
+    padding: 132px 0 96px;
+    margin-bottom: -60px;
+  }
+
+  .double-side {
+    .col-6:first-child {
+      padding-right: 12px;
+    }
+    .col-6:last-child {
+      padding-left: 12px;
+    }
+  }
+
+  h3 {
+    font-size: em(24);
+  }
+
+  .blue-block {
+    background: transparent;
+    padding: 0;
+  }
+
+
+  // Календари:
+  .vfc-main-container .vfc-calendars-container .vfc-calendars .vfc-calendar div.vfc-content .vfc-dayNames {
+    margin-bottom: 10px;
+  }
+  .vfc-main-container .vfc-calendars-container .vfc-calendars .vfc-calendar div.vfc-content .vfc-week div.vfc-day {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,84 @@
+@import "other/normalize"; // Нормализация
+@import "other/fonts"; // Шрифты
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 87.5%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: $textsans;
+  font-size: 16px;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-feature-settings: "liga" on;
+  background: #f1f2f5;
+}
+
+.swiper-wrapper {
+  will-change: transform;
+}
+
+.page-content {
+  &[data-type="index"] {
+    min-height: 100vh;
+    // background: #04092A;
+  }
+
+  &[data-color="dark"] {
+    // background: $darkblue;
+  }
+}
+
+// .page-enter-active, .page-leave-active {
+//   cursor: progress;
+// }
+// .page-enter, .page-leave-active {
+//   cursor: progress;
+// }
+.frame_blc {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+
+  iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+}
+
+// Компоненты
+@import "other/slider"; // Слайдеры
+@import "other/grid"; // Сетка
+@import "other/aside"; // Блоки с сайдбарами
+@import "other/calendar"; // Календарь
+
+// UI-блоки
+@import "blocks/scroll"; // Слайдеры
+@import "blocks/icons"; // Иконки
+@import "blocks/typo"; // Типографика
+@import "blocks/buttons"; // Кнопки
+@import "blocks/tabs"; // Вкладки
+@import "blocks/grids"; // Сетки
+@import "blocks/blocks"; // Блоки
+@import "blocks/forms"; // Формы
+
+// Темы для лайаутов
+@import "themes/dark"; // Темный
+
+// Адаптив общий
+@import "media/l";
+@import "media/m";
+@import "media/s";
+
+@import "themes/disability";

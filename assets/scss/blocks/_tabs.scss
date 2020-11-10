@@ -1,0 +1,42 @@
+.first+.tabs {
+  margin-top: 56px;
+}
+
+.tabs {
+  .tab-list {
+    font-family: $titlesans;
+    font-size: em(20);
+
+    .tab {
+      color: $lightblue;
+      margin-right: 32px;
+      cursor: pointer;
+      transition: color 0.5s $cubic;
+
+      &:hover {
+        color: #000;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.active {
+        color: #000;
+        cursor: default;
+      }
+    }
+  }
+
+  .tab-content {
+    margin-top: 40px;
+
+    .tab-inner {
+      display: none;
+
+      &.active {
+        display: block;
+      }
+    }
+  }
+}
